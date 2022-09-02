@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: fantasy;
+}
+h1{
+  margin: 50px auto 2.5rem auto;
+  font-family: 'Uchen', serif;
+  font-size: 3.0rem;
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color: #BDBDBF;
+}
+.top-pic{
+  position: absolute;
+  top: 30px;
+  right: 100px;
+}
+.middle-pic{
+  border-radius: 5%;
+}
+h2{
+  font-family: 'Qwitcher Grypen', cursive;
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+}
+.intro{
+  width: 50%;
+  margin: auto;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 100px;
+  padding-bottom: 10px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  width: 10%;
+  margin: 10px auto;
+  border-width: 10px;
+
+}
+h3{
+  font-family: 'Saira Condensed', sans-serif;
+  color: #014367;
+  font-size: 2.0rem
+}
+p{
+  font-family: 'Courgette', cursive;
+
+}
+.skill-row{
+  width: 55%;
+  margin: 100px auto;
+  text-align: left;
+}
+.mobile{
+  width: 35%;
+  float: left;
+  margin-right: 70px;
+}
+.laptop{
+  width: 35%;
+  float: right;
+  margin-left: 70px;
+}
+.Desktop{
+  width: 30%;
+  float: left;
+  margin-right: 80px;
+}
+.contact{
+  font-size: 2.0rem;
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.myButton {
+	box-shadow: 0px 11px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:1px 4px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+  background-color: #B3CAD6;
+  margin: 50px auto 0;
+  padding: 50px 0 20px;
+}
+.footer-link{
+  margin: 20px 20px;
+  color: #0C384F;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+.footer-link:hover{
+  color: white;
+}
